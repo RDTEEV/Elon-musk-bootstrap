@@ -1,0 +1,177 @@
+#sec1 {
+    background: black;
+    height: 190px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 600px;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container2 {
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.container3 {
+    position: absolute;
+    top: 73%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+
+.button:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+
+#image1 {
+    border-radius: 100px;
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+}
+
+#bio {
+    padding: 50px;
+}
+
+#HI {
+    font-size: 50px;
+    border-top: 5px solid black;
+}
+
+.line {
+    height: 8px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+    margin-top: -50px
+}
+
+p {
+    max-width: 800px;
+    margin: 25px auto;
+    line-height: 1.5;
+    font-size: 20px;
+    border: 50px double black;
+    padding: 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+#welcome,
+body {
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    padding-bottom: 100px;
+}
+
+#welcome {
+    
+}
+
+#q {
+    border-bottom: 5px solid black;
+    margin: 50px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor:pointer;
+
+}
+
+.link {
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    color: #15f4ee;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.link:hover {
+    font-size: 35px;
+    color: #88fffb;
+    box-shadow: inset 0px 11px 8px -10px #90f8f4, inset 0px -11px 8px -10px #90f8f4, inset 11px 0px 8px -10px #90f8f4, inset -11px 0px 8px -10px #90f8f4;
+}
+
+#video {
+    font-size: 50px;
+}
+
+#writings a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #15f4ee;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#sec1 a
+{
+text-decoration:none;
+}
+
+#contact_1 h3
+{
+display:inline;
+}
+
+#contact_1 a
+{
+    text-decoration:none;
+    font-size:20px;
+    color:beige
+}
+
+#contact_1 
+{   
+background-color:grey;
+}
+ 
